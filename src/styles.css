@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+/* Animations */
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.5);
+}

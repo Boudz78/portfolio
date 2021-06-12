@@ -1,0 +1,21 @@
+<mat-nav-list style="margin-top: 80px">
+  <a mat-list-item class="nav-item-image">
+    <img src="/assets/logo/logo-white.png" class="logo-item" />
+  </a>
+  <a mat-list-item routerLink="/" (click)="onSideNavClose()" class="nav-item">
+    <mat-icon class="nav-icon">home</mat-icon>
+    <span class="nav-caption">Home</span>
+  </a>
+  <a mat-list-item routerLink="/" (click)="onSideNavClose()" class="nav-item">
+    <mat-icon class="nav-icon">face</mat-icon>
+    <span class="nav-caption">About</span>
+  </a>
+  <a mat-list-item routerLink="/" (click)="onSideNavClose()" class="nav-item">
+    <mat-icon class="nav-icon">contactless</mat-icon>
+    <span class="nav-caption">Contact</span>
+  </a>
+  <!-- <a mat-list-item routerLink="/" (click)="onSideNavClose()">
+    <mat-icon class="nav-icon">project</mat-icon>
+    <span class="nav-caption">Project</span>
+  </a> -->
+</mat-nav-list>

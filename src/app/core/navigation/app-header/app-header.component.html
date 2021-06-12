@@ -1,0 +1,45 @@
+<mat-toolbar color="primary">
+  <div>
+    <button fxHide.gt-sm mat-icon-button (click)="onToggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <img
+      fxHide.lt-md
+      @fade
+      src="/assets/logo/logo-white.png"
+      width="50px"
+      style="padding-top: 5px"
+    />
+  </div>
+  <div>
+    <a href="/home"></a>
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+    <ul fxLayout fxLayoutGap="25px" class="navigation-items">
+      <li>
+        <a @fade class="grow"> Home</a>
+      </li>
+      <li>
+        <a @fade href="Hello">About</a>
+      </li>
+      <li>
+        <a @fade href="Hello">Contact</a>
+      </li>
+      <li>
+        <a href="">
+          <mat-icon style="padding-top: 5px">settings</mat-icon>
+        </a>
+      </li>
+
+      <!-- <li>
+        <button
+          mat-icon-button
+          class="example-icon"
+          aria-label="Example icon-button with share icon"
+        >
+          <mat-icon>share</mat-icon>
+        </button>
+      </li> -->
+    </ul>
+  </div>
+</mat-toolbar>
